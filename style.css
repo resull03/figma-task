@@ -394,6 +394,121 @@ justify-content: space-between;
     margin-top: 15px;
 }
 
+/* Part 4 start */
+:root{
+    --light-green:#9DC9C8;
+    --white:#fff;
+    --black:#000;
+}
+
+
+/* COURSE SECTION START*/
+.course{
+    width: 100%;
+    background-color: var(--light-green);
+    padding: 35px 0;
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px;
+}
+
+.container > h3{
+   font-size: 55px;
+   font-weight: 700;
+}
+
+ .price p{
+   font-size: 25px;
+   font-weight: 400;
+   margin-top: 20px;
+   margin-bottom: -20px;
+}
+
+ .price h4{
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.course-info{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin:15px 0;
+}
+
+.course-info h4{
+ font-size: 25px;
+ font-weight: 400;
+ margin: 15px 0 10px 0;
+}
+
+.course-info p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.course-info .left{
+    margin-right: 20px;
+}
+/* footer */
+.footer{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+.footer-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info .logo{
+  width: 115px;
+  height: 68px;
+}
+
+.footer-info .social{
+    display: flex;
+    gap:15px;
+    margin:10px 0;
+}
+
+.footer-info .social i{
+   font-size: 25px;
+}
+
+.footer-info .right {
+    margin-top:20px;
+}
+
+.footer-info .right div{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom:5px;
+}
+
+.footer-info .right i{
+    font-size: 27px;
+}
+
+.footer-info .right p{
+    font-size: 25px;
+}
+
+/* Author */
+.author{
+    padding-top: 35px;
+}
+
+.author strong{
+    font-size: 18px;
+}
+
 
 /* Responsive design for 800px */
 
@@ -640,8 +755,52 @@ justify-content: space-between;
         .course-progress .letter .letter-top p {
             line-height: 18px;
         }
-        
+        /* Part 4 */
+        .container > h3{
+            font-size: 32px;
+         }
+         
+          .price p{
+            font-size: 14px;
+            margin-bottom: -15px;
+         }
+         
+          .price h4{
+             font-size: 46px;
+             font-weight: 400;
+             margin-bottom: 10px;
+         }
+    
+         .course-info h4{
+            font-size: 14px;
+           }
+    
+           .course-info p{
+               font-size: 10px;
+           }
+           /* footer */
+           .footer-info .logo{
+            width: 66px;
+            height: 40px;
+          }
+    
+          .footer-info .social i{
+            font-size: 20px;
+         }
+    
+         .footer-info .right i{
+            font-size: 16px;
+        }
+    
+        .footer-info .right p{
+            font-size: 14px;
+        }
+    
+        .author strong{
+            font-size: 10px;
+        }
     }
+    
 
 
 
@@ -888,6 +1047,44 @@ justify-content: space-between;
         .course-progress .letter .letter-top p {
             line-height: 16px;
         }
+        /* Part 4 */
+        .container > h3{
+            font-size: 26px;
+         }
+         
+          .price p{
+            font-size: 12px;
+            margin-bottom: -10px;
+         }
+         
+          .price h4{
+             font-size: 37px;
+             font-weight: 400;
+             margin-bottom: 10px;
+         }
+    
+         .course-info h4{
+            font-size: 12px;
+           }
+           /* footer */
+           .footer-info{
+            flex-direction: column;
+        }
+    
+        .footer-info .logo{
+            width: 53px;
+            height: 32px;
+          }
+          .footer-info .social i{
+            font-size: 16px;
+         }
+    
+         .footer-info .right i{
+            font-size: 13px;
+        }
+    
+        .footer-info .right p{
+            font-size: 12px;
+        }
         
 }
-
