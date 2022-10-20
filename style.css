@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Part 2 start   */
+
+.format-main-box{
+    width: 31% ;
+}
+
+
+.format-container {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px
+}
+
+.format-header {
+    margin-bottom: 40px;
+}
+
+.format-main {
+    display: flex;
+justify-content: space-between;
+
+}
+
+.format-main h4 {
+    color: #1E4681;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab';
+}
+
+.format-main-box p {
+    font-size: 18px;
+}
+
+/* format section end */
+
+/* knowladge section start */
+
+.knowladge-container {
+    /* padding-left: 8vw; */
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 35px;
+}
+
+.knowladge-header {
+    margin-bottom: 50px;
+}
+
+.knowladge-main-content ul {
+    list-style-type: disc !important;
+    width: 675px;
+    font-size: 24px;
+}
+
+/* Part 2 finish */
+
+/* Part 3 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.course-programme {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.course-programme .container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.course-programme .container h1 {
+    font-size: 45px;
+}
+.course-programme .cards {
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+}
+.course-programme .card {
+    background: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 30%;
+    min-width: 320px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.course-programme .card-hidden {
+    box-shadow: 0;
+    width: 30%;
+    min-width: 320px;
+}
+
+.course-programme .card-top {
+    width: 100%;
+}
+.course-programme .card-top h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    padding: 0 15px;
+}
+.course-programme .card img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.course-programme .card-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 15px;
+}
+
+.course-progress {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.course-progress .container {
+    display: flex;
+    flex-direction: column;
+    /* width: 65%; */
+    gap: 20px;
+}
+
+.course-progress h1 {
+    min-height: 66px;
+}
+.letter {
+    padding: 30px;
+    width: 49%;
+    min-width: 450px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+}
+.letter-top p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.letter-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bottom-name h4 {
+    font-size: 18px;
+}
+.bottom-name a {
+    cursor: pointer;
+}
+.bottom-name img {
+    margin-top: 15px;
+}
+
+
+/* Responsive design for 800px */
+
+    @media screen and (max-width: 800px) {
+       /* Part 2 start  */
+         /* format section start */
+         .format {
+            margin-bottom: 40px;
+        }
+     
+        .format-container {
+     
+            max-width:1200px;
+            margin: 0 auto;
+         /* padding: 25px 16px; */
+        }
+     
+        .format-header {
+            margin-bottom: 56px;
+        }
+        .format-main {
+         display: flex;
+      }
+     
+     
+        .format-main-box {
+            margin-bottom: 56px;
+        }
+     
+        .format-main h4 {
+            color: #1E4681;
+            margin-bottom: 8px;
+        }
+     
+        .format-main-box p {
+            font-size: 11px;
+            width: 150px;
+        }
+     
+        /* format section end */
+     
+        /* knowladge section start */
+     
+     
+        .knowladge-container {
+            max-width:1200px;
+            margin: 0 auto;
+        }
+     
+        .knowladge-header {
+            margin-bottom: 56px;
+        }
+     
+        .knowladge-main-content ul {
+            width: 380px;
+            padding-left: 5px;
+            font-size: 14px;
+            line-height: 150%;
+        }
+     
+        /* knowladge section end */
+
+
+        /* Part 3 */
+        .course-programme .cards {
+            justify-content: space-around;
+        }
+        .course-programme .card-top h3 {
+            font-size: 16px;
+        }
+        .course-programme .container h1{
+            font-size: 25px !important;
+        }
+        .course-progress .letter {
+            min-width: 400px;
+        }
+        .course-progress h1 {
+            font-size: 20px;
+        }
+    
+        .course-progress .letter .letter-top p {
+            line-height: 18px;
+        }
+        
+    }
+
+
+
+/* Responsive design for 500px */
+@media screen and (max-width:500px){
+
+             /* Part 2 */
+
+        /* format section start */
+    
+ 
+        .format-container {
+            max-width:1200px;
+            margin: 0 auto;
+        padding: 25px 16px;
+        }
+    
+   
+    
+         .format-main{
+             flex-direction: column;
+         }
+    
+     
+    
+        .format-main h4 {
+            color: #1E4681;
+            margin-bottom: 4px;
+            font-family: 'Roboto Slab';
+            font-size: 16px;
+        }
+    
+        .format-main-box p {
+            font-size: 10px;
+            width: 200px;
+        }
+    
+        /* format section end */
+    
+        /* knowladge section start */
+        .knowladge {
+            margin-bottom: 60px;
+        }
+    
+        .knowladge-container {
+          
+            padding-left: 32px;
+            max-width:1200px;
+            margin: 0 auto;
+        }
+    
+        .knowladge-header {
+            margin-bottom: 15px;
+        }
+    
+        .knowladge-main-content ul {
+            width: 300px;
+            padding-left: 8px;
+            font-size: 12px;
+        }
+    
+        /* knowladge section end */
+    
+        /* Part 2 end */
+
+        /* Part 3  */
+        .course-programme .cards {
+            flex-direction: column;
+        }
+        .course-programme .card-top h3 {
+            font-size: 14px;
+        }
+        .card-bottom p {
+            font-size: 14px;
+        }
+    
+        .course-programme .card {
+            width: 55% !important;
+            max-width: 280px !important;
+        }
+        .course-programme .container h1 {
+            text-align: center;
+            font-size: 35px;
+        }
+        .course-programme .card-hidden {
+            max-width: 280px;
+        }
+        .course-progress .container {
+            align-items: center;
+        }
+        .course-progress h1 {
+            text-align: center;
+        }
+        .course-progress .letter {
+            padding: 20px !important;
+            width: 80%;
+            min-width: 280px;
+        }
+        .course-progress .letter .letter-top p {
+            line-height: 16px;
+        }
+        
+}
+
